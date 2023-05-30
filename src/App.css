@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -20px;
+  background-color: #1b1c1d;
+  color: whitesmoke;
+  flex-direction: column;
+}
+
+.createTodo {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  height: 200vh;
+  margin-top: 50px;
+  background-color: #1b1c1d;
+  color: whitesmoke;
+  flex-direction: column;
+}
+
+.main-header {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.create-form label {
+  color: whitesmoke !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+}
+
+.search {
+  /* margin-left: 10%; */
+  margin-bottom: 10px;
+}
+
+.pagination {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.login {
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.searchlogin {
+  width: 100%;
+  text-align: center;
+}
+
+.create {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.table {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.size {
+  width: 13em;
+  margin-bottom: 1em;
+}
+
+.icon {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.icon label {
+  color: whitesmoke;
+}
+
+.nav {
+  margin-bottom: -55px;
+  background-color: #1b1c1d;
+}
+
+.grid.container {
+  margin-top: 5em;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+.msg {
+  margin-left: 40.33%;
+  margin-bottom: 10px;
+}
